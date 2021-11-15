@@ -8,6 +8,6 @@ public class ProjectSidequest : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "ProceduralMeshComponent", "ProceduralMeshComponentEditor", "RuntimeMeshComponent", "Voxel", "Landscape" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "ProceduralMeshComponent", "ProceduralMeshComponentEditor", "RuntimeMeshComponent", "Landscape" });
 	}
 }

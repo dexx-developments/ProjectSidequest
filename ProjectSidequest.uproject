@@ -16,8 +16,13 @@
 	"Plugins": [
 		{
 			"Name": "VoxelFree",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/c61d1941c8664436be42d649404a10e0"
+		},
+		{
+			"Name": "AutoLandscapeGenerator",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/160233e3c301479f95629d5e306703b0"
 		}
 	]
 }
