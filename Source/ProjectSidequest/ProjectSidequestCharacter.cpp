@@ -298,3 +298,4 @@ bool AProjectSidequestCharacter::EnableTouchscreenMovement(class UInputComponent
 	
 	return false;
 }
+
