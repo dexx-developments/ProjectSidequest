@@ -10,6 +10,6 @@ public class ProjectSidequest : ModuleRules
         PrivateDependencyModuleNames.AddRange(new string[] {"WorldBrowser"});
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "ProceduralMeshComponent", "ProceduralMeshComponentEditor", "RuntimeMeshComponent", "Landscape", "AutoLandscapeGenerator", "BlueprintNoiseGenerator", "LandscapeGeneratorRuntime", "Foliage", "FoliageEdit", "WorldBrowser" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "ProceduralMeshComponent", "ProceduralMeshComponentEditor", "RuntimeMeshComponent", "Landscape", "AutoLandscapeGenerator", "BlueprintNoiseGenerator", "LandscapeGeneratorRuntime", "Foliage", "FoliageEdit", "WorldBrowser", "LandscapeEditor", "LandscapeEditorUtilities", "Landmass", "LandmassEditor" });
 	}
 }
