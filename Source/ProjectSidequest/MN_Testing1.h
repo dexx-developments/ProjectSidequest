@@ -26,13 +26,15 @@ public:
 	*/
 	UFUNCTION(BlueprintPure, DisplayName = "MN_Testing1", Category = "ProceduralGeneration|Noises")
 		static UMN_Testing1* ConstructMN_Testing1(UPARAM(ref) UGenerationModule*& MainModule, UPARAM(ref) UGenerationModule*& AddedModule,
-			const float StartX = 0.0f, const float BlendStartX = 0.0f, const float EndX = 1.0f, const float BlendEndX = 1.0f, 
+			
+			const float StartX, const float BlendStartX = 0.0f, const float EndX = 1.0f, const float BlendEndX = 1.0f,
 			const float StartY = 0.0f, const float BlendStartY = 0.0f, const float EndY = 1.0f, const float BlendEndY = 1.0f);
 
 public:
 
 	UGenerationModule* MainModule;
 	UGenerationModule* AddedModule;
+
 	float StartX;
 	float BlendStartX;
 	float EndX;
