@@ -25,6 +25,10 @@
 			"Name": "AutoLandscapeGenerator",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/160233e3c301479f95629d5e306703b0"
+		},
+		{
+			"Name": "Landmass",
+			"Enabled": true
 		}
 	]
 }
