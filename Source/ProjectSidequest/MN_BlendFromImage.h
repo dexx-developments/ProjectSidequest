@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Generation/GenerationModule.h"
+#include "Math/Color.h"
 #include "MN_BlendFromImage.generated.h"
 
 
@@ -21,23 +22,10 @@ public:
 
 	UFUNCTION(BlueprintPure, DisplayName = "MN_BlendFromImage", Category = "ProceduralGeneration|Noises")
 		static UMN_BlendFromImage* ConstructMN_BlendFromImage(UPARAM(ref) UGenerationModule*& MainModule, 
-		UPARAM(ref) UGenerationModule*& AddedModule, UPARAM(ref) UTexture2D*& Image,
-		const float StartX = 0.0f, const float BlendStartX = 0.0f, const float EndX = 1.0f, const float BlendEndX = 1.0f,
-		const float StartY = 0.0f, const float BlendStartY = 0.0f, const float EndY = 1.0f, const float BlendEndY = 1.0f);
+		UPARAM(ref) UGenerationModule*& AddedModule, UPARAM(ref) UTexture2D* Image);
 
-public:
 
 	UGenerationModule* MainModule;
 	UGenerationModule* AddedModule;
 	UTexture2D* Image;
-
-	float StartX;
-	float BlendStartX;
-	float EndX;
-	float BlendEndX;
-
-	float StartY;
-	float BlendStartY;
-	float EndY;
-	float BlendEndY;
 };
