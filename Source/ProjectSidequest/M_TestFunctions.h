@@ -6,9 +6,6 @@
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "M_TestFunctions.generated.h"
 
-/**
- * 
- */
 UCLASS()
 class PROJECTSIDEQUEST_API UM_TestFunctions : public UBlueprintFunctionLibrary
 {
