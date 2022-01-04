@@ -29,6 +29,19 @@
 		{
 			"Name": "Landmass",
 			"Enabled": true
+		},
+		{
+			"Name": "ShaderWorld",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/519f5dc62d714ba8b116e4763ba1e542",
+			"SupportedTargetPlatforms": [
+				"IOS",
+				"Win32",
+				"Win64",
+				"Mac",
+				"Android",
+				"Linux"
+			]
 		}
 	]
 }
