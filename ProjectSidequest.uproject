@@ -11,7 +11,8 @@
 			"AdditionalDependencies": [
 				"Engine",
 				"BlueprintNoiseGenerator",
-				"AutoLandscapeGenerator"
+				"AutoLandscapeGenerator",
+				"BlueprintGraph"
 			]
 		}
 	],

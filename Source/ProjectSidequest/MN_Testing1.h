@@ -16,7 +16,7 @@ class PROJECTSIDEQUEST_API UMN_Testing1 : public UGenerationModule
 {
 GENERATED_BODY()
 public:
-
+	
 	UMN_Testing1();
 
 	float GetValue(const FVector& Coordinates) const override;

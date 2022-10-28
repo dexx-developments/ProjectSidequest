@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "Math/Color.h"
 #include "MN_BlendFromImage.h"
+#include "Math/Color.h"
 
 UMN_BlendFromImage::UMN_BlendFromImage()
 {
